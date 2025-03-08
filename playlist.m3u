@@ -12,13 +12,40 @@ https://dp7xchau0hnq3.cloudfront.net/index.m3u8
 https://copacogen.desdeparaguay.net/trecetv/trecetv_alta/chunklist_w332036387.m3u8?k=e0e6bfdf9d1129a267d79cafd34a58b38bf66ed2ab767a56bb560fab57496c2f&exp=1729611251
 
 #EXTINF:-1,ABC (PY)
-https://abc-color.cdn.vustreams.com/live/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851/live.isml/live-audio_track_0_0_und=64000-video_track=500000.m3u8
+https://d2e809bgs49c6y.cloudfront.net/live/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851/live.isml/live-audio_track_0_0_und=64000-video_track=1200000.m3u8
 
 #EXTINF:-1,UNICANAL (PY)
 https://copacogen.desdeparaguay.net/unicanal/unicanal_alta/chunklist_w1134166562.m3u8?k=45db85b11e687791c4ff5417405c45177fdae519b77ae314a91a925ae0e30cc2
 
+#EXTINF:-1,GEN (PY)
+https://copacogen.desdeparaguay.net/gentv/gentv_py_baja/chunklist_w1109540483.m3u8?k=ce7ecdfc0fc897a16fd9df479bca030fe538e0f11b49feaa699799e28089c2c1&exp=1741444374
+
+#EXTINF:-1,VENUS MEDIA (PY)
+https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/chunklist_w181947986.m3u8?k=71a916978c5fddd38a4a9309d8de23091af221a0a042801b8e616cf63a1bdbec&exp=1741443552
+
+#EXTINF:-1,LATELE (PY)
+https://copacotf.desdeparaguay.net/latele/latele_py_med/chunklist_w308125641.m3u8?k=59fb9eb1be6102f47b602bab773d8861d8c4ff74afb88e35451671ce3d987822&exp=1741443760
+
+#EXTINF:-1,NPY (PY)
+https://copacotf.desdeparaguay.net/npy/npy_py_med/chunklist_w1813239786.m3u8?k=8f5cc40470902705148da344be2bfdfdb318a10d5c768a65b3e51314099096de&exp=1741443866
+
+#EXTINF:-1,E40 (PY)
+https://copacotf.desdeparaguay.net/e40tv/e40tv_py_med/chunklist_w1941676333.m3u8?k=57de4e45688e6e7f5937395f746521a334ff617210ac84ae4c7e73c11915c403&exp=1741443936
+
 #EXTINF:-1,DW ESPANOL
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+
+#EXTINF:-1,BAND
+https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/chunklist_w1404437788.m3u8?PlaylistM3UCL
+
+#EXTINF:-1,RECORD TV
+https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
+
+#EXTINF:-1,RECORD NEWS
+https://stream.ads.ottera.tv/cl/241024csdaegcmp791flvui1sg/960x540_1927200_1_f.m3u8?i=475_2116
+
+#EXTINF:-1,SBT Interior
+https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
 
 #EXTINF:-1,CNN ESPANOL
 http://tv.teleclub.xyz/club/server_2/mundo/cnnenespanol/index.m3u8
@@ -163,15 +190,3 @@ http://tv.teleclub.xyz/club/server_1/deportes/dazn1/index.m3u8
 
 #EXTINF:-1,DAZN 2
 http://tv.teleclub.xyz/club/server_1/deportes/dazn2/index.m3u8
-
-#EXTINF:-1,BAND
-https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/chunklist_w1404437788.m3u8?PlaylistM3UCL
-
-#EXTINF:-1,RECORD TV
-https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
-
-#EXTINF:-1,RECORD NEWS
-https://stream.ads.ottera.tv/cl/241024csdaegcmp791flvui1sg/960x540_1927200_1_f.m3u8?i=475_2116
-
-#EXTINF:-1,SBT Interior
-https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
