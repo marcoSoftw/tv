@@ -17,6 +17,21 @@ https://abc-color.cdn.vustreams.com/live/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851/li
 #EXTINF:-1,UNICANAL (PY)
 https://copacogen.desdeparaguay.net/unicanal/unicanal_alta/chunklist_w1134166562.m3u8?k=45db85b11e687791c4ff5417405c45177fdae519b77ae314a91a925ae0e30cc2
 
+#EXTINF:-1,GEN (PY)
+https://copacogen.desdeparaguay.net/gentv/gentv_py_baja/chunklist_w1109540483.m3u8?k=ce7ecdfc0fc897a16fd9df479bca030fe538e0f11b49feaa699799e28089c2c1&exp=1741444374
+
+#EXTINF:-1,VENUS MEDIA (PY)
+https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/chunklist_w181947986.m3u8?k=71a916978c5fddd38a4a9309d8de23091af221a0a042801b8e616cf63a1bdbec&exp=1741443552
+
+#EXTINF:-1,LATELE (PY)
+https://copacotf.desdeparaguay.net/latele/latele_py_med/chunklist_w308125641.m3u8?k=59fb9eb1be6102f47b602bab773d8861d8c4ff74afb88e35451671ce3d987822&exp=1741443760
+
+#EXTINF:-1,NPY (PY)
+https://copacotf.desdeparaguay.net/npy/npy_py_med/chunklist_w1813239786.m3u8?k=8f5cc40470902705148da344be2bfdfdb318a10d5c768a65b3e51314099096de&exp=1741443866
+
+#EXTINF:-1,E40 (PY)
+https://copacotf.desdeparaguay.net/e40tv/e40tv_py_med/chunklist_w1941676333.m3u8?k=57de4e45688e6e7f5937395f746521a334ff617210ac84ae4c7e73c11915c403&exp=1741443936
+
 #EXTINF:-1,DW ESPANOL
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 
