@@ -1,0 +1,69 @@
+:root {
+    --primary: #0e1571;
+    --bg-dark: #0f0f0f;
+    --bg-side: #181818;
+    --bg-btn: #222;
+}
+* { box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    margin: 0; display: flex; height: 100vh;
+    background: var(--bg-dark); color: white; overflow: hidden;
+}
+
+/* --- REPRODUCTORES --- */
+.video-section { flex: 3; background: #000; display: flex; flex-direction: column; height: 100vh; }
+.video-container { flex: 1; position: relative; background: #000; overflow: hidden; }
+
+#player, #m3u-wrapper {
+    position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important;
+    visibility: hidden; opacity: 0; z-index: 1; transition: opacity 0.4s ease;
+}
+
+.active-player { visibility: visible !important; opacity: 1 !important; z-index: 10 !important; }
+
+/* --- SIDEBAR --- */
+.sidebar {
+    flex: 1; background: var(--bg-side); border-left: 1px solid #333;
+    overflow-y: auto; padding: 20px;
+}
+
+.logo-header { padding: 15px; background: var(--bg-side); border-bottom: 1px solid #333; text-align: center; }
+h1 { margin: 0; letter-spacing: 2px;}
+h2 { font-size: 0.8rem; margin: 0 0 10px; color: #777; text-transform: uppercase; }
+
+/* --- BUSCADOR Y ESTADOS --- */
+.search-container { margin-bottom: 15px; position: sticky; top: 0; z-index: 20; background: var(--bg-side); padding: 5px 0; }
+#buscador {
+    width: 100%; padding: 12px; background: var(--bg-btn);
+    border: 1px solid #444; border-radius: 8px; color: white; outline: none;
+}
+
+/* Evitamos barrido: Si no buscamos, mostramos todo sin filtrar */
+#lista-botones:not(.buscando) .btn-video { display: flex !important; opacity: 1 !important; transform: none !important; }
+#lista-botones.buscando .btn-video.hidden { display: none !important; }
+
+/* --- BOTONES --- */
+.btn-video {
+    display: flex; justify-content: space-between; align-items: center;
+    width: 100%; padding: 14px; margin-bottom: 10px;
+    background: var(--bg-btn); border: 1px solid #444; color: #efefef;
+    cursor: pointer; border-radius: 8px; font-size: 14px;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.btn-video.active { background: var(--primary); border-color: var(--primary); font-weight: bold; }
+.btn-video svg { width: 18px; fill: currentColor; opacity: 0.8; }
+
+/* --- ANIMACIÓN DE CARGA INICIAL (Toda la lista a la vez) --- */
+.lista-cargada { animation: simpleFade 0.3s ease-in forwards; }
+@keyframes simpleFade { from { opacity: 0; } to { opacity: 1; } }
+
+/* --- VISTA MOVIL --- */
+@media (max-width: 768px) {
+    body { flex-direction: column; overflow: hidden; }
+    .video-section { height: 35vh; min-height: 200px; max-height: 280px; width: 100%; position: relative; z-index: 100; }
+    .sidebar { flex: 1; width: 100%; border: none; padding: 15px; overflow-y: auto; }
+    .logo-header h1 { font-size: 1.6rem; }
+
+}

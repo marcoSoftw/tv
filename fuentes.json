@@ -1,0 +1,198 @@
+[
+  { 
+    "titulo": "GEN", 
+    "id": "https://gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_baja/chunklist_w706169285.m3u8", 
+    "tipo": "m3u" 
+   },
+  { 
+    "titulo": "Farra", 
+    "id": "http://159.203.148.226/live/farra_src.m3u8", 
+    "tipo": "m3u" 
+  },
+  { 
+    "titulo": "Next HD", 
+    "id": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8", 
+    "tipo": "m3u" 
+   },
+  { 
+    "titulo": "MiTV", 
+    "id": "https://rds3.desdeparaguay.net/mitv/mitv/chunklist_w463565857.m3u8", 
+    "tipo": "m3u" 
+  },
+  { 
+    "titulo": "Suceso TV", 
+    "id": "https://live.enhdtv.com:8081/8060/tracks-v1a1/mono.m3u8", 
+    "tipo": "m3u" 
+   },
+  { 
+    "titulo": "Cosmos TV", 
+    "id": "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8", 
+    "tipo": "m3u" 
+  },
+  { 
+    "titulo": "4DmasNoticias", 
+    "id": "https://rds3.desdeparaguay.net/4dmasnoticiastv/4dmasnoticiastv/chunklist_w1241577505.m3u8", 
+    "tipo": "m3u" 
+  },
+  { 
+    "titulo": "Record", 
+    "id": "https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8", 
+    "tipo": "m3u" 
+   },
+  { 
+    "titulo": "Record News", 
+    "id": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn_480p.m3u8", 
+    "tipo": "m3u" 
+  },
+  { 
+    "titulo": "Rede SPTV", 
+    "id": "https://video01.logicahost.com.br/websptv/websptv/chunklist_w1654255747.m3u8", 
+    "tipo": "m3u" 
+   },
+  { 
+    "titulo": "SIC TV", 
+    "id": "https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8", 
+    "tipo": "m3u" 
+   },
+  { 
+    "titulo": "STZ TV", 
+    "id": "https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/chunklist.m3u8", 
+    "tipo": "m3u" 
+  },
+  { 
+    "titulo": "TV Cultura", 
+    "id": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8", 
+    "tipo": "m3u" 
+  },
+  {
+    "id": "SF06Qy1Ct6Y", 
+  "titulo": "C5N", 
+  "tipo": "youtube"
+  },
+  {
+    "id": "cb12KmMMDJA",
+    "titulo": "TN",
+    "tipo": "youtube"
+  },
+  {
+    "id": "unR6PQyi8TM",
+    "titulo": "La Nacion",
+    "tipo": "youtube"
+  },
+  {
+    "id": "avly0uwZzOE",
+    "titulo": "Cronica TV",
+    "tipo": "youtube"
+  },
+  {
+    "id": "ECFbTfcv_yE",
+    "titulo": "Argentina 12",
+    "tipo": "youtube"
+  },
+  {
+    "id": "c660thEPeeY",
+    "titulo": "Noticias Telemundo",
+    "tipo": "youtube"
+  },
+  {
+    "id": "V4C7VNfRATA",
+    "titulo": "Univision Noticias",
+    "tipo": "youtube"
+  },
+  {
+    "id": "ku09JnYKhz0",
+    "titulo": "RTVE Noticias",
+    "tipo": "youtube"
+  },
+  {
+    "id": "sX7iv0Gx-iY",
+    "titulo": "Teletrece",
+    "tipo": "youtube"
+  },
+  {
+    "id": "N-bwYlUQNd0",
+    "titulo": "24H Chile",
+    "tipo": "youtube"
+  },
+  {
+    "id": "Qr61waJ6AZg",
+    "titulo": "CNN",
+    "tipo": "youtube"
+  },
+  {
+    "id": "O9mOtdZ-nSk",
+    "titulo": "Euronews",
+    "tipo": "youtube"
+  },
+  {
+    "id": "d1fgkjW9TP4",
+    "titulo": "Telemadrid",
+    "tipo": "youtube"
+  },
+  {
+    "id": "XhAYcYpPzTc",
+    "titulo": "Telefe",
+    "tipo": "youtube"
+  },
+  {
+    "id": "jRnqxURJ120",
+    "titulo": "DW",
+    "tipo": "youtube"
+  },
+  {
+    "id": "Y-IlMeCCtIg",
+    "titulo": "France 24",
+    "tipo": "youtube"
+  },
+  {
+    "id": "hKnYmpJlCOU",
+    "titulo": "Caracol",
+    "tipo": "youtube"
+  },
+  {
+    "id": "ZA6YS0CYoTA",
+    "titulo": "Noticias Caracol",
+    "tipo": "youtube"
+  },
+  {
+    "id": "34MBhb2M_TE",
+    "titulo": "Televisa Puebla",
+    "tipo": "youtube"
+  },
+  {
+    "id": "BQD4GU0OasI",
+    "titulo": "SBT Central",
+    "tipo": "youtube"
+  },
+  { 
+    "titulo": "SBT Interior", 
+    "id": "https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8", 
+    "tipo": "m3u" 
+  },
+  {
+    "id": "tTzcdqAJnZw",
+    "titulo": "SBT Rio",
+    "tipo": "youtube"
+  },
+  {
+    "id": "raDcNI8Vwh4",
+    "titulo": "SBT RS",
+    "tipo": "youtube"
+  },
+  {
+    "id": "2-TJWjqWsSU",
+    "titulo": "teleSur",
+    "tipo": "youtube"
+  },
+  {
+    "id": "puF_JRcRLxo",
+    "titulo": "Noticias RCN",
+    "tipo": "youtube"
+  },
+  {
+    "id": "CG7UYN5OrQA",
+    "titulo": "Caso Cerrado TV",
+    "tipo": "youtube"
+  }
+
+]
