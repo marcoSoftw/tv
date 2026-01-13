@@ -10,7 +10,6 @@ body {
     margin: 0; display: flex; height: 100vh;
     background: var(--bg-dark); color: white; overflow: hidden;
 }
-
 /* --- REPRODUCTORES --- */
 .video-section { flex: 3; background: #000; display: flex; flex-direction: column; height: 100vh; }
 .video-container { flex: 1; position: relative; background: #000; overflow: hidden; }
@@ -67,3 +66,4 @@ h2 { font-size: 0.8rem; margin: 0 0 10px; color: #777; text-transform: uppercase
     .logo-header h1 { font-size: 1.6rem; }
 
 }
+
