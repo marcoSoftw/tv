@@ -57,7 +57,7 @@ function seleccionarFuente(video, btn = null) {
             if (!ytPlayer) {
                 ytPlayer = new YT.Player('player', {
                     height: '100%', width: '100%', videoId: video.id,
-                    playerVars: { 'autoplay': 1, 'mute': 1, 'playsinline': 1, 'rel': 0 },
+                    playerVars: { 'autoplay': 0, 'mute': 0, 'playsinline': 1, 'rel': 0 },
                     events: { 'onReady': (e) => e.target.playVideo() }
                 });
             } else ytPlayer.loadVideoById(video.id);
@@ -100,4 +100,5 @@ function verificarYTodoListo() {
 }
 
 function onYouTubeIframeAPIReady() { apiYoutubeLista = true; }
+
 window.onload = inicializarApp;
